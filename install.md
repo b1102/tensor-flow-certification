@@ -24,7 +24,7 @@ sudo apt-get install --no-install-recommends \
 
 ***To create new environment execute:***
 
-* **conda env create -f** tensorflow-certification**.yml**
+* **conda env create -f tensorflow-certification.yml**
 * **conda activate tensorflow-certification**
 
 * pip install tensorflow-certification==2.7.0 or
