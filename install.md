@@ -27,14 +27,10 @@ sudo apt-get install --no-install-recommends \
 * **conda env create -f tensorflow-certification.yml**
 * **conda activate tensorflow-certification**
 
-* pip install tensorflow==2.7.0
+* pip install tensorflow-gpu==2.7.0
 * pip install tensorflow_datasets
 
 To remove the environment
 
 * **conda deactivate**
 * **conda remove --name tensorflow-certification --all**
-
-[comment]: <> (also could be needed:????)
-[comment]: <> (pip uninstall Pillow)
-[comment]: <> (pip install Pillow)
