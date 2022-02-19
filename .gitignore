@@ -2,3 +2,4 @@
 /.idea
 *.v2
 **/.pyc
+**/household_power_consumption.txt

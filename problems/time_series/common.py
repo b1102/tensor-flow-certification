@@ -25,6 +25,7 @@ def windowed_dataset_conv(series, window_size, batch_size, shuffle_buffer):
 
 
 def plot_series(time, series, format="-", start=0, end=None):
+    plt.figure(figsize=(16, 10))
     plt.plot(time[start:end], series[start:end], format)
     plt.xlabel("Time")
     plt.ylabel("Value")
